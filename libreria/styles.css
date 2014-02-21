@@ -1,0 +1,330 @@
+@media print { .oculto {display:none} }
+
+body
+{
+    background-color: #B0C4DE;
+    font-family: 'Helvetica',Arial;    
+	
+}
+
+#todo
+{
+	width: 960px;
+    margin:0 auto;
+    text-align: center;
+}
+h1
+{
+    color: #191970;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+	
+}
+header hgroup h1
+{
+	/*background-image:url("/images/logo_sidicom.png");
+	background-repeat:no-repeat;*/
+	border-bottom: solid;
+    padding-bottom: 10px;
+    border-width: 2px;
+    border-color: #000070;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+hgroup
+{
+     padding-bottom: 5px;
+	 padding-top:30px;
+	 
+}
+p 
+{
+	font-weight: bold;
+	margin-left:10%;
+	margin-right:10%;
+	font-size:16px;
+}
+th,td,tr
+{
+	padding:4px;
+}
+
+
+#nombre2
+{
+	padding: 5px 5px 10px 10px;
+	background-color:#C4A453;
+	font-size:12px;
+	border-radius: 5px;
+}
+#ntabla
+{
+	width:55px;
+	height:25px;
+	
+}
+#hora
+{
+	color: black; 
+	font-size:11px;
+	font-family: 'Russo One', sans-serif;
+	text-align: rigth;
+}
+#menu{
+	/*estilo de nuestra lista*/
+	list-style:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:36px;
+}
+
+#menu li{
+	/*estilo a cada uno de los elementos(li) de nuestro menu*/
+	float:left;/* propiedad importante para que nuestro menu tome la forma horizontal*/
+	display:block;
+	position:relative;
+
+}
+
+#menu li a{
+	/*estilo de los enlaces */
+	color:#191970;
+	font-weight: bold;
+	text-decoration:none;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+	line-height:1.3em;
+	padding:2px 5px 10px 12px;
+	display:block;
+}
+
+#menu li ul{
+	/*estilo de los submenus*/
+	width:100px;
+	background:#B0C4DE;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border:1px #ccc solid;
+	border-radius: 5px;
+	display:none; /*importante para que los submenus no estén visibles*/
+	position:absolute;
+	z-index:999;
+	margin-top:0px;
+}
+
+#menu li ul li{
+	/*estilo a cada uno de los elementos(li) de nuestro submenu*/
+	width:100%;
+	list-style:none;
+	display:block;
+
+}
+
+#menu li ul li a{
+	/*estilo a cada uno de los enlaces de nuestro submenu*/
+	color:#191970;
+	font-weight: bold;
+	font-size:12px;
+	text-align: center;
+	line-height:12px;
+	display:block;
+	padding:6px;
+
+}
+
+#menu li ul li a:hover{
+	/*un poco de decoracion a los enlaces de nuestro submenu al estar el cursor sobre ellos con ayuda de el selector :hover */
+	background-color:#be9d47;
+	color:#fff;
+	font-weight: bold;
+	text-decoration:underline;
+	border-radius: 5px;
+}
+
+
+#menu li:hover ul{
+	/*con este selector definimos que cuando el cursor este sobre un elemento(li) que contenga un elemento(ul) dentro le asigne la propiedad display:block; para que este a su vez pase de invisible a visible*/
+	display:block;
+}
+
+#infoprin   
+{
+    width:auto;
+    height:auto;
+    background-color: #be9d47;
+    color:black;  
+    margin:0 auto;
+    border-radius:10px ;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+footer  a:link {
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-size:10px;
+	color: #191970;
+}
+#formulario 
+{
+    width: 100%;
+    padding: 10px; 
+    
+}
+#formulario2
+{
+    width: 100%;
+    padding: 10px; 
+    
+}
+legend
+{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+input
+{
+    border: #be9d47;
+    padding: 5px;
+    border-radius: 5px;  
+}
+
+label
+{
+    float: left;
+    margin: 2px 2px 2px 2px;
+    text-align: left;
+}
+#codigo
+{
+   font-weight: bold;
+   font-size: 15px;
+   background-color: #be9d47;
+   border: #be9d47;
+}
+#tabla
+{	
+	font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+}
+#tabla2
+{	
+	width:50%;
+	float:left;
+    font-size: 12px;
+    text-align: left;
+}
+#tabla3
+{	
+	margin-left:30%;
+	margin-right:5px;
+    font-size: 12px;
+    text-align: left;
+}
+#menu2
+{
+    font-weight: bold;
+    display: inline-block;
+    color:#191970;
+    cursor:pointer;
+}
+#menu2 ul
+{
+    margin: 0; 
+    padding: 0px; 
+	
+	
+}
+#menu2 ul li
+{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+	margin-left: 100px;
+}
+#menu2 ul li:hover
+{
+    background-color: #000080;
+    border-radius: 5px;
+    padding: 5px;
+}
+#menu2 a 
+{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 45px 5px 5px 5px;
+    color: #fff;
+    text-align: center;
+}
+#menu2 ul li a 
+{
+    text-decoration: none;
+}
+
+#guardar {
+  width:48px;
+  height: 48px;
+}
+
+#guardar:hover
+{
+    background-color: #000080;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#bu1 {
+  width:48px;
+  height: 48px;
+}
+
+#bu1:hover
+{
+
+	background-color: #000080;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#nuevo {
+  width:48px;
+  height: 48px;
+}
+
+#nuevo:hover
+{
+    background-color: #000080;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width:1000px){
+    todo {
+        width: 100%;
+    }
+}
+@media screen and (max-width:700px){
+     todo {
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:500px){
+    todo {
+        width: 100%;
+    }
+}

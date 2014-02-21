@@ -1,0 +1,32 @@
+
+  ...................Instalación de SIDICOM.......................
+
+	1. Instalar Servidor de Apache y MySql
+	2. copiar la base de datos de SIDICOM llamada diagnostico.sql
+	   al MySql.
+	3. Importar la carpeta SIDICOM al servidor de Apache
+	4. Ingresar a http://localhost/sidicom
+	5. ingresar al sistema con el usuario de administrador
+	   user: jko
+	   pass: 123
+
+	   user: santi
+	   pass: 12345
+
+	6. Dar clic en cerrar sesion 
+	   (se encuentra en la barra de inicio, aparece el usuario
+	    con el q a ingresado con el mouse al pasar sobre el 
+	    aparecera la opcion de cerrar sesion).
+
+	NOTAS: 
+	1. SIDICOM como recomendacion se debera ejecutar en los 
+	   Chrome-Google
+	   Opera
+	2. Cualquier consulta realizar a joaga89@hotmail.com
+
+	   
+	SIDICOM a sido probado por cuatro navegadores que son
+	Internet Explorer, Firework, Opera y Chrome. Por lo que
+	se concluyo que en dos ultimo navegadores puede ejecutar
+	sin mayor problemas las funciones del sistema mientras 
+	que los otros no se realizan correctamente las funciones.
